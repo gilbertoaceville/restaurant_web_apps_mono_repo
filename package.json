@@ -1,0 +1,43 @@
+{
+  "name": "crunchies-web-apps-mono-repo",
+  "version": "1.0.0",
+  "description": "Single Repo to contain all Crunchies web apps: Admin, Restaurant, Consumer, Public",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/learnfactory/food-ordering-and-logistics-platform/web/crunchies-web-apps-mono-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/learnfactory/food-ordering-and-logistics-platform/web/crunchies-web-apps-mono-repo/issues"
+  },
+  "homepage": "https://gitlab.com/learnfactory/food-ordering-and-logistics-platform/web/crunchies-web-apps-mono-repo#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "chart.js": "^3.6.0",
+    "date-fns": "^2.11.1",
+    "evergreen-ui": "^6.5.1",
+    "next": "^12.0.1",
+    "next-images": "^1.8.1",
+    "next-optimized-images": "^2.6.2",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.0.2",
+    "react-switch": "^6.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "typescript": "^4.4.4"
+  }
+}

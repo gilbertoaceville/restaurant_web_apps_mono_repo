@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/restaurant/features/Dashboard/index.jsx", "src/restaurant/features/Dashboard/DashboardTab/index.jsx", "src/restaurant/features/Dashboard/Customers/index.jsx", "src/restaurant/features/Dashboard/Header/index.jsx", "src/restaurant/features/Dashboard/Drawer/index.jsx", "src/restaurant/features/Dashboard/Delivery/index.jsx", "src/restaurant/features/Dashboard/MyDishes/index.jsx", "src/restaurant/features/Dashboard/MyDishes/index.jsx", "pages/restaurant/dashboard/Dashboard/index.jsx", "pages/restaurant/dashboard/Delivery/index.jsx", "pages/restaurant/dashboard/Drawer/index.jsx", "pages/restaurant/dashboard/Header/index.jsx", "src/restaurant/features/Dashboard/OrderRequest/index.jsx", "src/restaurant/features/Dashboard/DashboardTab/dashboard.styles.js", "pages/restaurant/auth/sign-in/index.jsx", "pages/restaurant/dashboard/index.jsx", "pages/restaurant/dashboard/Customers/index.jsx", "pages/restaurant/auth/sign-up/index.jsx", "src/restaurant/index.jsx", "pages/index.jsx", "src/admin/features/AuthPages/SignIn/signIn.styles.js", "src/admin/features/AuthPages/SignIn/index.jsx", "pages/admin/dashboard/order/index.jsx", "src/admin/component/Drawer/drawer.styles.js", "src/admin/features/AuthPages/SignUp/signUp.styles.js", "src/admin/features/AuthPages/SignUp/index.jsx", "src/admin/features/LandingPage/LandingPage.styles.js", "src/admin/features/LandingPage/index.jsx", "src/admin/component/Toggler/index.jsx", "src/admin/component/Toggler/toggler.styled.js", "src/restaurant/features/AuthPages/SignIn/index.jsx", "src/restaurant/features/AuthPages/SignIn/signIn.styles.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
